@@ -1,5 +1,16 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR --export EDITOR:nvim
+SETUVAR --export __fish_git_prompt_char_cleanstate:\uf00c
+SETUVAR --export __fish_git_prompt_char_dirtystate:\uf067
+SETUVAR --export __fish_git_prompt_char_invalidstate:\uf00d
+SETUVAR --export __fish_git_prompt_char_stagedstate:\uf22d
+SETUVAR --export __fish_git_prompt_char_stashstate:\uf024
+SETUVAR --export __fish_git_prompt_char_upstream_equal:\uedf6
+SETUVAR --export __fish_git_prompt_describe_style:yes
+SETUVAR --export __fish_git_prompt_show_informative_status:yes
+SETUVAR --export __fish_git_prompt_showcolorhints:yes
+SETUVAR --export __fish_git_prompt_showupstream:verbose
 SETUVAR __fish_initialized:3400
 SETUVAR fish_color_autosuggestion:4c566a
 SETUVAR fish_color_cancel:\x2d\x2dreverse
@@ -40,3 +51,4 @@ SETUVAR fish_pager_color_selected_background:\x2d\x2dbackground\x3d434c5e
 SETUVAR fish_pager_color_selected_completion:\x1d
 SETUVAR fish_pager_color_selected_description:\x1d
 SETUVAR fish_pager_color_selected_prefix:\x1d
+SETUVAR fish_user_paths:/home/cat/\x2eemacs\x2ed/bin
