@@ -1,12 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR --export EDITOR:nvim
-SETUVAR --export __fish_git_prompt_char_cleanstate:\uf00c
-SETUVAR --export __fish_git_prompt_char_dirtystate:\uf067
-SETUVAR --export __fish_git_prompt_char_invalidstate:\uf00d
-SETUVAR --export __fish_git_prompt_char_stagedstate:\uf22d
-SETUVAR --export __fish_git_prompt_char_stashstate:\uf024
-SETUVAR --export __fish_git_prompt_char_upstream_equal:\uedf6
 SETUVAR --export __fish_git_prompt_describe_style:yes
 SETUVAR --export __fish_git_prompt_show_informative_status:yes
 SETUVAR --export __fish_git_prompt_showcolorhints:yes
